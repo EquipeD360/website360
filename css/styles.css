@@ -10824,3 +10824,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+/*D360 Landing Page*/
+
+body{ 
+  font-family: 'IBM Plex Sans', sans-serif; 
+  color: #666; 
+  background-image: url("/home/celloguerra/Projetos/SiteD360/assets/bg.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-item { 
+  text-transform: uppercase;
+}
