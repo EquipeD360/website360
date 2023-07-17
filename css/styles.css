@@ -10830,10 +10830,16 @@ textarea.form-control-lg {
 body{ 
   font-family: 'IBM Plex Sans', sans-serif; 
   color: #666; 
-  background-image: url("/home/celloguerra/Projetos/SiteD360/assets/bg.png"); 
+  background-image: url("../assets/bg.png"); 
   background-repeat: no-repeat;
   background-size: cover;
 }
-.nav-item { 
+a.nav-link { 
   text-transform: uppercase;
+  color: #ffffff !important;
+  font-size: 1.1em;
 }
+a.nav-link:hover { 
+  color: #ffffff70 !important;
+}
+
