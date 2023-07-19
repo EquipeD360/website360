@@ -10904,3 +10904,21 @@ h1{
     height: 17em;
   }
 }
+/* Pizza Time*/
+h2 {
+  font-weight: lighter;
+  font-size: 3.5em;
+  letter-spacing: -0.06em;
+}
+h2 span {
+  color: #A75F05; 
+}
+
+/*Mesa Servida*/
+body{
+    background-image: url("../assets/mesa.jpg"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    resize: both;
+    background-position: bottom;
+  }
