@@ -8,6 +8,6 @@
 
 new TypeIt("#cursor", {
   strings: ["criativa", "inovadora", "transparente", "comprometida", "excelente", "diversa"],
-  speed: 125,
+  speed: 150,
   breakLines: false,
 }).go();

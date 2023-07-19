@@ -10828,12 +10828,18 @@ textarea.form-control-lg {
 /*D360 Landing Page*/
 
 body{ 
-  font-family: 'IBM Plex Sans', sans-serif; 
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400; 
   color: #666; 
+}
+main{
   background-image: url("../assets/bg.png"); 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  resize: both;
+  overflow: scroll;
 }
+
 a.nav-link { 
   text-transform: uppercase;
   color: #ffffff !important;
@@ -10843,17 +10849,28 @@ a.nav-link:hover {
   color: #ffffff70 !important;
 }
 
-/*Hero cursor*/
+/*Hero*/
+#hero{
+padding: 6em 0 3em 0;
+}
 h1{
   font-weight: lighter;
   font-size: 6em;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.06em;
 }
 #cursor{
-  color: #fff; 
+  color: #A75F05; 
+}
+.btn { 
+  border-radius: 30px;
+  color:#2E0B00;
+  padding: .8em 2em;
 }
 
 /* Cards Carousel*/
+.card-title{
+  color:#A75F05;
+}
 .carousel-inner {
   padding: 0;
 }
