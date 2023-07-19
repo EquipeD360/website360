@@ -10844,11 +10844,14 @@ a.nav-link:hover {
 }
 
 /*Hero cursor*/
-
 h1{
   font-weight: lighter;
-  font-size: 4em;}
-
+  font-size: 6em;
+  letter-spacing: -0.05em;
+}
+#cursor{
+  color: #fff; 
+}
 
 /* Cards Carousel*/
 .carousel-inner {
