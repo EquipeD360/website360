@@ -10843,6 +10843,13 @@ a.nav-link:hover {
   color: #ffffff70 !important;
 }
 
+/*Hero cursor*/
+
+h1{
+  font-weight: lighter;
+  font-size: 4em;}
+
+
 /* Cards Carousel*/
 .carousel-inner {
   padding: 0;

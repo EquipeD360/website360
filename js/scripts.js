@@ -6,3 +6,8 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
+new TypeIt("#cursor", {
+  strings: ["criativa", "inovadora", "transparente", "comprometida", "excelente", "diversa"],
+  speed: 125,
+  breakLines: false,
+}).go();
